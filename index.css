@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --main-bg-color: #222222;
+    --main-color: #D4A82D;
+    --secondary-color: #A59748;
+    --green: #00A300;
+    --red: #9F0E00;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: 'Ubuntu';
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: inherit;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    border: 1px solid var(--main-color);
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+#begin-button {
+    border-radius: 40px;
+    font-size: 2em;
+    width: 320px;
+    height: 200px;
+}
+
+#next-button {
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: var(--secondary-color);
+}
+
+#next-button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--secondary-color);
+}
+
+#quiz {
+    font-size: 1.2em;
+    display: none;
+    text-align: center;
+    width: 40%;
+}
+
+h4 {
+    color: var(--secondary-color);
+    margin-bottom: 50px;
+}
+
+#question {
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+#choices {
+    color: var(--main-color);
+    list-style-type: none;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#choices > li {
+    margin-bottom: 10px;
+}
+
+#message {
+    color: var(--main-color);
+    visibility: hidden;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+#source {
+    font-size: 0.6em !important;
+    color: var(--main-color);
+}
+
+#source > a {
+    color: var(--secondary-color);
+}
+
+.wrong {
+    color: var(--red) !important;
+}
+
+.right {
+    color: var(--green) !important;
+}

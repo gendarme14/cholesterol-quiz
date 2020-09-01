@@ -1,0 +1,24 @@
+[
+    {
+	"question": "What are the rates of coronary heart disease mortality in the major statin versus control trials? (median follow-up 4.8 years)",
+	"choices": [
+	    "19% and 24% respectively",
+	    "1.9% and 2.4% respectively",
+	    "0.19% and 0.24% respectively"
+	],
+	"correct-answer": 1,
+	"source": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61350-5/fulltext"
+    },
+    {
+	"question": "Which metric improved significantly in the PCSK9-inhibitor group (LDL-cholesterol levels reduced by 62%) in the ODYSSEY trial (Alirocumab)?",
+	"choices": [
+	    "coronary heart disease mortality",
+	    "ischemic stroke",
+	    "heart failure",
+	    "all of the above",
+	    "none of the above"
+	],
+	"correct-answer": 4,
+	"source": "https://www.nejm.org/doi/10.1056/NEJMoa1501031"
+    }
+]
